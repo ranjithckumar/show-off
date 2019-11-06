@@ -2,12 +2,12 @@ import React from "react";
 import "./menu-item.styles.scss";
 import Content from '../content/content.component';
 // here we passing a title, imageUrl and id as a props
-const MenuItem = ({ title, imageUrl,id }) => (
+const MenuItem = ({ title, imageUrl,id,size }) => (
   <div
     style={{
       backgroundImage: `url(${imageUrl})`
     }}
-    className="menu-item">
+    className={`${size} menu-item`}>
         <Content key={id} title={title} /> 
 {/*         
     <div className="content">
