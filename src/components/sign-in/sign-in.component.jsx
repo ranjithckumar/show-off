@@ -1,5 +1,6 @@
 import React from "react";
 import InputForm from '../form-input/form-input.component';
+import CustomButton from '../custom-button/custom-button.component';
 
 import "./sign-in.styles.scss";
 // SignIn class contains users email and password as a states
@@ -43,8 +44,10 @@ class SignIn extends React.Component {
             lable='password'
             required
           />
-          <lable>Password</lable>
-          <input type="submit" value="submit" />
+         
+          <CustomButton type="submit" >
+              Sign In
+          </CustomButton>
         </form>
       </div>
     );
