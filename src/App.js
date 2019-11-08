@@ -10,6 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div>
+      {/* This header component is Unique throughout application, that's its placed outside Route */}
       <Header />
       <Switch>
         <Route exact path='/' component={HomePage} />
