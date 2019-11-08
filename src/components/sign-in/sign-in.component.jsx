@@ -1,4 +1,5 @@
 import React from "react";
+import InputForm from '../form-input/form-input.component';
 
 import "./sign-in.styles.scss";
 // SignIn class contains users email and password as a states
@@ -25,19 +26,21 @@ class SignIn extends React.Component {
         <h2> I already have an account</h2>
         <span>Sign in with your email and password </span>
         <form onSubmit={this.handleSubmit}>
-          <input
+          <InputForm
             name="email"
             type="email"
-            onChange={this.handleChange}
+            handleChange={this.handleChange}
             value={this.state.email}
+            lable='email'
             required
           />
           <lable>Email</lable>
-          <input
+          <InputForm
             name="password"
             type="password"
             value={this.state.password}
-            onChange={this.handleChange}
+            handleChange={this.handleChange}
+            lable='password'
             required
           />
           <lable>Password</lable>
