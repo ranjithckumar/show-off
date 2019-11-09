@@ -46,8 +46,6 @@ class SignIn extends React.Component {
             required
           />
          <div className='buttons'>
-
-         </div>
          <CustomButton type="submit" >
               Sign In
           </CustomButton>
@@ -55,6 +53,8 @@ class SignIn extends React.Component {
             {''}
            Sign in with google{''}
           </CustomButton>
+         </div>
+        
         </form>
       </div>
     );
