@@ -54,6 +54,7 @@ class SignIn extends React.Component {
             lable='password'
             required
           />
+           <lable>Password</lable>
          <div className='buttons'>
          <CustomButton type="submit" >
               Sign In
