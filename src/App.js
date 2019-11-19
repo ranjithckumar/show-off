@@ -54,7 +54,7 @@ class App extends React.Component {
     return (
       <div>
         {/* This header component is Unique throughout application, that's its placed outside Route */}
-        <Header currentUser={this.state.currentUser} />
+        <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={ShopPage} />
