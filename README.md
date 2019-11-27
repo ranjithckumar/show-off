@@ -8,9 +8,13 @@ https://nervous-bardeen-f96080.netlify.com
 ## Tools and Technologies:
 Html, Scss,Javascript,ReactJs, Redux, Stripe api, goolge auth and React-Router.
 
-
+# Home page
 ![pic](https://github.com/ranjithckumar/show-off/blob/master/images/home.png)
+
+# Shopping page
 ![pic](https://github.com/ranjithckumar/show-off/blob/master/images/cloth.png)
+
+# Payment page
 ![pic](https://github.com/ranjithckumar/show-off/blob/master/images/stripe.png)
 
 
